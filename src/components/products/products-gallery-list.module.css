@@ -1,0 +1,78 @@
+.products-gallery {
+  position: relative;
+  width: 446px;
+  max-width: 100%;
+  aspect-ratio: 446 / 800;
+  margin-inline: auto;
+  flex: none;
+}
+
+.products-gallery__main-product-frame {
+  position: absolute;
+  width: calc(100% * 400 / 446);
+  height: 56%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.products-gallery__main-product {
+  position: absolute;
+  display: block;
+  width: 83.75%;
+  height: calc(100% * 440 / 448);
+  left: 50.125%;
+  bottom: 0;
+  transform: translateX(-50%);
+  object-fit: contain;
+}
+
+.products-gallery__extra-product {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+}
+
+.products-gallery__extra-product_type_clamps-for-lids {
+  width: calc(100% * 150 / 446);
+  height: calc(100% * 107 / 800);
+  left: 0;
+  bottom: calc(100% * 123 / 800);
+}
+
+.products-gallery__extra-product_type_lids-with-sko {
+  width: calc(100% * 150 / 446);
+  height: calc(100% * 94 / 800);
+  left: calc(100% * 298 / 446);
+  top: calc(50% - 100% * 47 / 800 + 100% * 217 / 800);
+}
+
+.products-gallery__extra-product_type_vacuum-lids {
+  width: calc(100% * 84 / 446);
+  height: 18.75%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.products-gallery__extra-product_type_colored-lids {
+  width: calc(100% * 150 / 446);
+  height: calc(100% * 138 / 800);
+  right: 0;
+  top: 5%;
+}
+
+.products-gallery__extra-product_type_retort-bags {
+  width: calc(100% * 153 / 446);
+  height: 18.75%;
+  left: 0;
+  top: 5%;
+}
+
+.products-gallery__extra-product_type_gasket-for-autoclave {
+  width: calc(100% * 150 / 446);
+  height: 17.5%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
